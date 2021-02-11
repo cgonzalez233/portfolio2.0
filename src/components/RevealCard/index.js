@@ -2,7 +2,7 @@ import React from "react";
 
 function RevealCard(props) {
   return (
-    <div className="card">
+    <div className="card hoverable">
       <div className="card-image waves-effect waves-block waves-light">
         <img
           className="activator"
@@ -13,7 +13,7 @@ function RevealCard(props) {
         ></img>
       </div>
       <div className="card-content">
-        <span className="card-title grey-text text-darken-4">
+        <span className="card-title grey-text text-darken-4 activator">
           {`${props.title}`}
           <i className="material-icons right">close</i>
         </span>
