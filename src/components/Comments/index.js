@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Row, Col } from "react-materialize";
+import CommentField from "../CommentField/index.js";
 
 function Comments() {
   return (
@@ -11,9 +12,7 @@ function Comments() {
             textClassName="white-text"
             title="Comments"
           >
-            I am a very simple card. I am good at containing small bits of
-            information. I am convenient because I require little markup to use
-            effectively.
+            <CommentField />
           </Card>
         </Col>
       </Row>
