@@ -1,26 +1,25 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div>
       <nav>
         <div className="nav-wrapper blue-grey darken-1">
-          <Link to="/" className="brand-logo">
+          <a to="/" className="brand-logo">
             Christian Gonzalez
-          </Link>
-          <Link to="#" data-target="mobile-demo" className="sidenav-trigger">
+          </a>
+          <a to="#" data-target="mobile-demo" className="sidenav-trigger">
             <i className="material-icons"></i>
-          </Link>
+          </a>
           <ul className="right hide-on-med-and-down">
             <li>
-              <Link to="/">Home</Link>
+              <a to="/">Home</a>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <a to="/portfolio">Portfolio</a>
             </li>
             <li>
-              <Link to="/comments">Comments</Link>
+              <a to="/comments">Comments</a>
             </li>
           </ul>
         </div>
@@ -28,13 +27,13 @@ function Navbar() {
 
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <Link to="/">Home</Link>
+          <a to="/">Home</a>
         </li>
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <a to="/portfolio">Portfolio</a>
         </li>
         <li>
-          <Link to="comments">Comments</Link>
+          <a to="comments">Comments</a>
         </li>
       </ul>
     </div>

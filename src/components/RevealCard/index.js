@@ -1,23 +1,31 @@
 import React from "react";
-import { Card, Icon, CardTitle } from "react-materialize";
 
 function RevealCard(props) {
   return (
-    <Card
-      closeIcon={<Icon>close</Icon>}
-      header={
-        <CardTitle
-          image={`${
+    <div className="card hoverable">
+      <div className="card-image waves-effect waves-block waves-light">
+        <img
+          className="activator"
+          alt={`${props.alt}`}
+          src={`${
             props.image || "https://materializecss.com/images/sample-1.jpg"
           }`}
-          reveal
-          waves="light"
-        />
-      }
-      reveal={<p>{props.children}</p>}
-      revealIcon={<Icon>more_vert</Icon>}
-      title={`${props.title}`}
-    ></Card>
+        ></img>
+      </div>
+      <div className="card-content">
+        <span className="card-title grey-text text-darken-4 activator">
+          {`${props.title}`}
+          <i className="material-icons right">close</i>
+        </span>
+      </div>
+      <div className="card-reveal">
+        <span className="card-title grey-text text-darken-4">
+          {`${props.title}`}
+          <i className="material-icons right">close</i>
+        </span>
+        <p className="grey-text">{`${props.children}`}</p>
+      </div>
+    </div>
   );
 }
 
