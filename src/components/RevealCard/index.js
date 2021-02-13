@@ -12,8 +12,8 @@ function RevealCard(props) {
           }`}
         ></img>
       </div>
-      <div className="card-content">
-        <span className="card-title grey-text text-darken-4 activator">
+      <div className="card-content grey lighten-5">
+        <span className="card-title grey-text text-darken-4 activator ">
           {`${props.title}`}
           {/* Heroku and GitHub logos */}
           {props.heroku ? (

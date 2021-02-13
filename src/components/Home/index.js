@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Row, Col } from "react-materialize";
-import "./style.scss";
+import "./style.css";
 
 function Home() {
   return (
