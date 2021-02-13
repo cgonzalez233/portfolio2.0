@@ -8,7 +8,7 @@ function Portfolio() {
       <Row className="valign-wrapper">
         <Col m={13} s={12} className="valign">
           <Card
-            className="blue-grey darken-1"
+            className="glassCard z-depth-2"
             textClassName="white-text"
             title="Portfolio"
           >

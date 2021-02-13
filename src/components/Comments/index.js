@@ -8,7 +8,7 @@ function Comments() {
       <Row className="valign-wrapper">
         <Col m={12} className="valign">
           <Card
-            className="blue-grey darken-1 commentCard"
+            className="commentCard glassCard z-depth-2"
             textClassName="white-text"
             title="Comments"
           >
