@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "materialize-css/dist/css/materialize.min.css";
-// import { Button, Card, Row, Col } from "react-materialize";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
@@ -10,15 +9,18 @@ import M from "materialize-css/dist/js/materialize.min.js";
 
 function App() {
   document.title = "Christian Webpage";
+  // Initilize Materialize
   useEffect(() => {
     var elem = document.querySelector(".sidenav");
     var instance = M.Sidenav.init(elem, {
       edge: "left",
       inDuration: 250,
     });
+    // Initialize Materialize
   }, []);
   return (
     <Router>
+      {/* Navbar */}
       <nav>
         <div className="nav-wrapper blue-grey darken-1">
           <Link to="/" className="brand-logo">
@@ -41,7 +43,7 @@ function App() {
         </div>
       </nav>
 
-      <ul className="sidenav" id="mobile-demo">
+      <ul className="sidenav glassSidenav" id="mobile-demo">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -52,6 +54,7 @@ function App() {
           <Link to="comments">Comments</Link>
         </li>
       </ul>
+      {/* Navbar */}
 
       <main>
         <Route exact path="/" component={Home} />

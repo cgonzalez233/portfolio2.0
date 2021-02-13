@@ -2,7 +2,7 @@ import React from "react";
 
 function RevealCard(props) {
   return (
-    <div className="card hoverable">
+    <div className="card hoverable portfolioCard z-depth-2">
       <div className="card-image waves-effect waves-block waves-light">
         <img
           className="activator"
@@ -15,6 +15,21 @@ function RevealCard(props) {
       <div className="card-content">
         <span className="card-title grey-text text-darken-4 activator">
           {`${props.title}`}
+          {/* Heroku and GitHub logos */}
+          {props.heroku ? (
+            <a href={`${props.heroku}`}>
+              <img className="logoSize" src="/images/heroku.png"></img>
+            </a>
+          ) : (
+            ""
+          )}
+          {/* <a href={`${props.heroku}`}>
+            <img className="logoSize" src="/images/heroku.png"></img>
+          </a> */}
+          <a href={`${props.github}`}>
+            <img className="logoSize" src="/images/github.png"></img>
+          </a>
+          {/* Heroku and GitHub logos */}
           <i className="material-icons right">close</i>
         </span>
       </div>
@@ -24,6 +39,15 @@ function RevealCard(props) {
           <i className="material-icons right">close</i>
         </span>
         <p className="grey-text">{`${props.children}`}</p>
+        <br></br>
+        <p>
+          <a href={`${props.heroku}`}>
+            <img className="logoSize" src="/images/heroku.png"></img>
+          </a>
+          <a href={`${props.github}`}>
+            <img className="logoSize" src="/images/github.png"></img>
+          </a>
+        </p>
       </div>
     </div>
   );
