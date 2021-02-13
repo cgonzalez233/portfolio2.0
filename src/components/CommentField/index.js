@@ -11,7 +11,7 @@ function CommentField() {
                 placeholder="Name"
                 id="nameInput"
                 type="text"
-                class="validate"
+                class="validate white-text"
               ></input>
               <label for="nameInput"></label>
             </div>
@@ -22,7 +22,7 @@ function CommentField() {
                 placeholder="Email"
                 id="emailInput"
                 type="text"
-                class="validate"
+                class="validate white-text"
               ></input>
               <label for="emailInput"></label>
             </div>
@@ -32,7 +32,7 @@ function CommentField() {
               <textarea
                 placeholder="Comments"
                 id="commentInput"
-                class="materialize-textarea"
+                class="materialize-textarea white-text"
               ></textarea>
               <label for="commentInput"></label>
             </div>

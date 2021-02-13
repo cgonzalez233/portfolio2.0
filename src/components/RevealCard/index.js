@@ -23,7 +23,7 @@ function RevealCard(props) {
           {`${props.title}`}
           <i className="material-icons right">close</i>
         </span>
-        <p>{`${props.children}`}</p>
+        <p className="grey-text">{`${props.children}`}</p>
       </div>
     </div>
   );

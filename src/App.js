@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 // import { Button, Card, Row, Col } from "react-materialize";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -6,9 +6,17 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Comments from "./components/Comments";
 import "./App.css";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 function App() {
   document.title = "Christian Webpage";
+  useEffect(() => {
+    var elem = document.querySelector(".sidenav");
+    var instance = M.Sidenav.init(elem, {
+      edge: "left",
+      inDuration: 250,
+    });
+  }, []);
   return (
     <Router>
       <nav>
@@ -16,9 +24,9 @@ function App() {
           <Link to="/" className="brand-logo">
             Christian Gonzalez
           </Link>
-          <Link to="#" data-target="mobile-demo" className="sidenav-trigger">
-            <i className="material-icons"></i>
-          </Link>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+            <i className="material-icons">menu</i>
+          </a>
           <ul className="right hide-on-med-and-down">
             <li>
               <Link to="/">Home</Link>

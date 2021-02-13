@@ -4,7 +4,7 @@ import PortfolioContent from "../PortfolioContent/index.js";
 
 function Portfolio() {
   return (
-    <div className="container">
+    <div className="portfolioContainer">
       <Row className="valign-wrapper">
         <Col m={13} s={12} className="valign">
           <Card
