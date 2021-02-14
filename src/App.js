@@ -23,8 +23,8 @@ function App() {
       {/* Navbar */}
       <nav>
         <div className="nav-wrapper blue-grey darken-1">
-          <Link to="/" className="brand-logo">
-            Christian Gonzalez
+          <Link to="/" className="brand-logo navFont">
+            Christian
           </Link>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger">
             <i className="material-icons">menu</i>
