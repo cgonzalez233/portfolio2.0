@@ -8,6 +8,21 @@ function PortfolioContent() {
       <Row>
         <Col m={6} s={12}>
           <RevealCard
+            title="RPGenerator"
+            image="/images/RPGenerator.png"
+            alt="Image for RPGenerator App"
+            heroku="https://rpgenerator233.herokuapp.com/"
+            github="https://github.com/cgonzalez233/finalProjectChristianJack"
+          >
+            An application used to randomize characters for Dungeons and Dragons
+            5e. When logged in, you can save the randomized characters and look
+            at each of them on the homepage. Additional features includes a
+            Spell Book and Bestiary so you can look up spells and monsters
+            easily.
+          </RevealCard>
+        </Col>
+        <Col m={6} s={12}>
+          <RevealCard
             title="Pokéssist"
             image="/images/pokessist.png"
             alt="Image for Pokessist App"
@@ -18,19 +33,6 @@ function PortfolioContent() {
             effectiveness for each specific pokemon. You can also create an
             account to build teams to set yourself up for success when you play
             a pokemon game
-          </RevealCard>
-        </Col>
-        <Col m={6} s={12}>
-          <RevealCard
-            title="Food Group"
-            image="/images/foodGroup.png"
-            alt="Image for Food Group App"
-            github="https://github.com/cgonzalez233/Food-Group"
-          >
-            An application that takes a given ingredient and gives recipes that
-            include that ingredient. The application also gives the user a map
-            showing their closest grocery stores. I worked on the cards and the
-            card functionality for this project.
           </RevealCard>
         </Col>
       </Row>
@@ -117,6 +119,21 @@ function PortfolioContent() {
             to save tasks for the day and changes task colors based on if it is
             after the current time, before the current time or is the current
             time.
+          </RevealCard>
+        </Col>
+      </Row>
+      <Row>
+        <Col m={6} s={12}>
+          <RevealCard
+            title="Food Group"
+            image="/images/foodGroup.png"
+            alt="Image for Food Group App"
+            github="https://github.com/cgonzalez233/Food-Group"
+          >
+            An application that takes a given ingredient and gives recipes that
+            include that ingredient. The application also gives the user a map
+            showing their closest grocery stores. I worked on the cards and the
+            card functionality for this project.
           </RevealCard>
         </Col>
       </Row>

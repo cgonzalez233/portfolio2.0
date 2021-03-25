@@ -9,7 +9,7 @@ function Home() {
         <Col m={12} className="valign">
           <div className="col s3">
             <img
-              src="/images/christian.jpg"
+              src="/images/mepic.jpg"
               className="circle responsive-img z-depth-2"
             ></img>
           </div>
@@ -18,13 +18,16 @@ function Home() {
             textClassName="white-text"
             title="Christian Gonzalez"
           >
-            Hi, my name is Christian, im currently enrolled in a coding bootcamp
-            learning a bunch of different coding languages. Look forward to all
-            the crazy things im going to be making as i delve deeper into
-            coding!
+            Hi, my name is Christian, I just completed UCF's Coding Bootcamp and
+            learned various languages and skills from the amazingly talented
+            teachers that work there. Look forward to all the crazy things im
+            going to be making as I delve deeper into coding!
             <br></br>
             <br></br>
-            Currently I know these languages:<br></br>
+            <div className="center-align">
+              <img id="badge" src="/images/UCFBCBadge.png"></img>
+            </div>
+            Currently known languages and skills:<br></br>
             <img
               src="/images/htmlLogo.png"
               alt="HTML Logo"
