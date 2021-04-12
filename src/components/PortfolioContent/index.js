@@ -12,7 +12,7 @@ function PortfolioContent() {
             image="/images/RPGenerator.png"
             alt="Image for RPGenerator App"
             heroku="https://rpgenerator233.herokuapp.com/"
-            github="https://github.com/cgonzalez233/finalProjectChristianJack"
+            github="https://github.com/cgonzalez233/RPGenerator"
           >
             An application used to randomize characters for Dungeons and Dragons
             5e. When logged in, you can save the randomized characters and look
