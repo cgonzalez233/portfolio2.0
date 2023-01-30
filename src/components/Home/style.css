@@ -36,7 +36,11 @@
 .languageLogo {
   height: auto;
   width: 35px;
-  margin-right: 5px;
+  margin-right: 10px;
+}
+
+.angularLogo {
+  width: 50px;
 }
 
 .glassSidenav {

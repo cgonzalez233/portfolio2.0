@@ -18,9 +18,9 @@ function Navbar() {
             <li>
               <a to="/portfolio">Portfolio</a>
             </li>
-            <li>
+            {/* <li>
               <a to="/comments">Comments</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
@@ -32,9 +32,9 @@ function Navbar() {
         <li>
           <a to="/portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a to="comments">Comments</a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

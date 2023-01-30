@@ -9,7 +9,7 @@ function Home() {
         <Col m={12} className="valign">
           <div className="col s3">
             <img
-              src="/images/mepic.jpg"
+              src="/images/mepic.png"
               className="circle responsive-img z-depth-2"
             ></img>
           </div>
@@ -18,10 +18,12 @@ function Home() {
             textClassName="white-text"
             title="Christian Gonzalez"
           >
-            Hi, my name is Christian, I just completed UCF's Coding Bootcamp and
-            learned various languages and skills from the amazingly talented
-            teachers that work there. Look forward to all the crazy things im
-            going to be making as I delve deeper into coding!
+            Hi, my name is Christian, I am a junior Full Stack Web Developer.
+            I completed UCF's Coding Bootcamp and learned various languages 
+            and skills from the amazingly talented teachers that work there.
+            I then moved to Revature and learned even more languages, including
+            Java and Angular. Now im looking for my next big project to get even more
+            experience!
             <br></br>
             <br></br>
             <div className="center-align">
@@ -61,6 +63,21 @@ function Home() {
             <img
               src="/logo192.png"
               alt="React Logo"
+              className="languageLogo"
+            ></img>
+            <img
+              src="/images/javaLogo.png"
+              alt="Java Logo"
+              className="languageLogo"
+            ></img>
+            <img
+              src="/images/angularLogo.png"
+              alt="Angular Logo"
+              className={"languageLogo angularLogo"}
+            ></img>
+            <img
+              src="/images/gitLogo.png"
+              alt="Git Logo"
               className="languageLogo"
             ></img>
           </Card>

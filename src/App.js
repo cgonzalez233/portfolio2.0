@@ -24,7 +24,7 @@ function App() {
       <nav>
         <div className="nav-wrapper blue-grey darken-1">
           <Link to="/" className="brand-logo navFont">
-            Christian
+            Christian Gonzalez
           </Link>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger">
             <i className="material-icons">menu</i>
@@ -36,9 +36,9 @@ function App() {
             <li>
               <Link to="/portfolio">Portfolio</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/comments">Comments</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
