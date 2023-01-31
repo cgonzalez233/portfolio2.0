@@ -58,7 +58,7 @@ function PortfolioContent() {
             github2="https://github.com/cgonzalez233/REVLoot-Back-End"
           >
             For this project, my team and I were tasked with creating the structure 
-            for an eCommerce app. This app was to be used for our comapny, Revature,
+            for an eCommerce app. This app was to be used for our company, Revature,
             to sell different pieces of merchandise when needed. We then handed the 
             project off to the next team who were tasked with giving the project 
             a cohesive design and products to sell.
