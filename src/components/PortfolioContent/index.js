@@ -13,11 +13,10 @@ function PortfolioContent() {
             alt="Image for RPGenerator App"
             github="https://github.com/cgonzalez233/RPGenerator"
           >
-            An application used to randomize characters for Dungeons and Dragons
-            5e. When logged in, you can save the randomized characters and look
-            at each of them on the homepage. Additional features includes a
-            Spell Book and Bestiary so you can look up spells and monsters
-            easily.
+            An application for randomizing characters in Dungeons and Dragons
+            5e. It allows you to log in, save characters, and view them on the
+            homepage. It also features a Spell Book and Bestiary for easy spell
+            and monster lookup.
           </RevealCard>
         </Col>
         <Col m={6} s={12}>
@@ -27,14 +26,12 @@ function PortfolioContent() {
             alt="Image for Pokessist App"
             github="https://github.com/cgonzalez233/Group1Project"
           >
-            An application used to look up pokemon and check the type
-            effectiveness for each specific pokemon. You can also create an
-            account to build teams to set yourself up for success when you play
-            a pokemon game
+            An application for looking up Pokemon and checking type
+            effectiveness. It has an option to create an account and build teams
+            for success in Pokemon games.
           </RevealCard>
         </Col>
       </Row>
-
 
       <Row>
         <Col m={6} s={12}>
@@ -44,9 +41,8 @@ function PortfolioContent() {
             alt="Image for ShoppingApp"
             github="https://github.com/cgonzalez233/ShoppingApp"
           >
-            An eCommerce application that allows for the user to create 
-            and login to an account so that they can add products to their
-            cart and checkout.
+            An eCommerce application that enables users to create and log in to
+            an account, add products to their cart, and checkout.
           </RevealCard>
         </Col>
         <Col m={6} s={12}>
@@ -57,11 +53,9 @@ function PortfolioContent() {
             github="https://github.com/cgonzalez233/REVLoot-Front-End"
             github2="https://github.com/cgonzalez233/REVLoot-Back-End"
           >
-            For this project, my team and I were tasked with creating the structure 
-            for an eCommerce app. This app was to be used for our company, Revature,
-            to sell different pieces of merchandise when needed. We then handed the 
-            project off to the next team who were tasked with giving the project 
-            a cohesive design and products to sell.
+            Our team was assigned to create the structure for an eCommerce app
+            for our company, Revature, to sell merchandise. We handed it over to
+            the next team for design and product implementation.
           </RevealCard>
         </Col>
       </Row>
